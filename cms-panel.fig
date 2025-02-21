@@ -1,0 +1,79 @@
+// CMS Panel Container
+- Background: var(--accent-blue)
+- Min-height: 100vh
+
+// İçerik Yönetimi Ana Ekran
+- Content Dashboard:
+  * Quick Stats:
+    - Toplam Sayfa Sayısı
+    - Yayında Olan Sayfalar
+    - Son Güncellenen Sayfalar
+    - Taslak Sayfalar
+
+// Sayfa Yönetimi
+- Page Management:
+  * Sayfa Listesi:
+    - Ağaç Yapısı Görünümü
+    - Sürükle-Bırak Sıralama
+    - Durum İndikatörleri
+  
+  * Sayfa Düzenleme:
+    - WYSIWYG Editör
+    - SEO Ayarları:
+      * Meta Title
+      * Meta Description
+      * URL Yapısı
+    - Medya Galerisi
+    - Yayın Ayarları:
+      * Yayın Tarihi
+      * Durum (Taslak/Yayında)
+      * Dil Seçenekleri (TR/EN)
+
+// Menü Yönetimi
+- Menu Builder:
+  * Header Menü
+  * Footer Menü
+  * Sürükle-Bırak Düzenleme
+  * Link Tipleri:
+    - Sayfa Linki
+    - Harici Link
+    - Dosya Linki
+
+// Medya Kütüphanesi
+- Media Library:
+  * Dosya Upload:
+    - Drag & Drop
+    - Çoklu Yükleme
+    - Boyut Optimizasyonu
+  * Medya Organizasyonu:
+    - Klasör Yapısı
+    - Etiketleme
+    - Arama/Filtreleme
+  * Görsel Düzenleme:
+    - Crop
+    - Resize
+    - Alt Text
+    - Title
+
+// Dil Yönetimi
+- Language Management:
+  * Dil Seçenekleri:
+    - Türkçe (Varsayılan)
+    - İngilizce
+  * Çeviri Arayüzü:
+    - Sayfa bazlı çeviri
+    - Kelime bazlı çeviri
+    - Eksik çeviri kontrolü
+
+// Form Yönetimi
+- Form Builder:
+  * İletişim Formu
+  * Form Elementleri:
+    - Text Input
+    - Email
+    - Telefon
+    - Mesaj Alanı
+  * Form Submissions:
+    - Gelen Mesajlar
+    - Excel Export
+    - Email Forwarding 

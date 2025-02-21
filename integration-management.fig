@@ -1,0 +1,72 @@
+// Entegrasyon Yönetim Paneli
+- Container:
+  * Background: var(--white)
+  * Padding: 32px
+  * Full Width Layout
+
+// API Yönetimi
+- API Management:
+  * API Anahtarları:
+    - Key Listesi
+    - Yetki Seviyeleri
+    - Kullanım Limitleri
+  
+  * Endpoint Monitörü:
+    - Status Kontrolü
+    - Response Süreleri
+    - Hata Oranları
+    - Trafik Analizi
+
+// Üçüncü Parti Entegrasyonlar
+- Third Party:
+  * İyzico Entegrasyonu:
+    - API Credentials
+    - Webhook Ayarları
+    - Test Ortamı
+    - Canlı Ortam
+  
+  * Kamera Sistemleri:
+    - Bağlantı Ayarları
+    - Stream Konfigürasyonu
+    - Kayıt Parametreleri
+  
+  * SMS Gateway:
+    - Servis Sağlayıcı
+    - Gönderim Ayarları
+    - Şablon Yönetimi
+
+// Webhook Yönetimi
+- Webhook Settings:
+  * Endpoint Listesi:
+    - URL
+    - Secret Key
+    - Event Types
+    - Status
+  
+  * Event Logları:
+    - Başarılı Gönderimler
+    - Hatalar
+    - Retry Mekanizması
+  
+  * Test Araçları:
+    - Endpoint Testi
+    - Payload Oluşturucu
+    - Response Simulator
+
+// Entegrasyon Sağlığı
+- Integration Health:
+  * Dashboard:
+    - Genel Durum
+    - Uptime Metrikleri
+    - Error Rates
+    - Latency Stats
+  
+  * Alarm Sistemi:
+    - Threshold Ayarları
+    - Bildirim Kuralları
+    - Escalation Matrix
+  
+  * Raporlama:
+    - Performans Raporları
+    - Kullanım İstatistikleri
+    - SLA Metrikleri 

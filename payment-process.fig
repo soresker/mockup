@@ -1,0 +1,51 @@
+// Ödeme Akışı Tasarımı
+- Container:
+  * Background: var(--white)
+  * Border-radius: 16px
+  * Padding: 32px
+
+// Ödeme Bilgileri Kartı
+- Payment Info Card:
+  * Header:
+    - Ödeme Tutarı (Büyük font)
+    - Vade Tarihi
+    - Abonelik Tipi
+  * Status Indicator:
+    - Beklemede
+    - İşlemde
+    - Tamamlandı
+    - Başarısız
+
+// İyzico Entegrasyon Arayüzü
+- Card Form:
+  * Kart Numarası Input
+    - Mask: "#### #### #### ####"
+    - Validation: Luhn Algorithm
+  * Son Kullanma Tarihi
+    - Format: MM/YY
+  * CVV
+    - Mask: "###"
+  * Kart Sahibi Adı
+
+- Güvenlik Bildirimi:
+  * SSL Icon
+  * 3D Secure Logo
+  * PCI Compliance Badge
+
+// Ödeme Sonuç Ekranları
+- Success Screen:
+  * Check Animation
+  * İşlem Referans No
+  * Makbuz İndir Butonu
+  * Email Gönderim Onayı
+
+- Error Screen:
+  * Error Icon
+  * Hata Mesajı
+  * Tekrar Dene Butonu
+  * Destek İletişim
+
+// Otomatik Ödeme Ayarları
+- Auto Payment Toggle
+- Kayıtlı Kartlar Listesi
+- Yeni Kart Ekleme Formu 

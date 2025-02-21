@@ -1,0 +1,60 @@
+// Cihaz Yönetimi Paneli
+- Container:
+  * Background: var(--white)
+  * Border-radius: 16px
+  * Box-shadow: 0 4px 20px rgba(0,0,0,0.08)
+
+// Cihaz Listesi
+- Device Grid:
+  * Filtreler:
+    - Cihaz Tipi
+    - Durum (Aktif/Pasif)
+    - Bağlantı Durumu
+    - Lokasyon
+
+  * Cihaz Kartı:
+    - Header:
+      * Cihaz İkonu
+      * Model Adı
+      * Durum İndikatörü (Online/Offline)
+    - Body:
+      * Seri No
+      * Son Aktivite
+      * Pil Durumu
+      * Sinyal Gücü
+    - Footer:
+      * Hızlı Aksiyonlar:
+        - Test Et
+        - Yeniden Başlat
+        - Konfigüre Et
+
+// Sensör Detayları
+- Sensor Configuration:
+  * Temel Ayarlar:
+    - İsim
+    - Lokasyon
+    - Hassasiyet Seviyesi
+    - Tetikleme Koşulları
+  
+  * Gelişmiş Ayarlar:
+    - Kalibrasyon
+    - Bildirim Kuralları
+    - Bağlantı Parametreleri
+    - Güç Yönetimi
+
+  * Bağlantı Geçmişi:
+    - Son Bağlantılar
+    - Kesinti Logları
+    - Performans Metrikleri
+
+// Bakım Planlaması
+- Maintenance:
+  * Bakım Takvimi:
+    - Planlı Bakımlar
+    - Geçmiş Bakımlar
+    - Uyarı Notları
+  
+  * Sağlık Durumu:
+    - Performans Skoru
+    - Arıza Tahminleri
+    - Önleyici Bakım Önerileri 

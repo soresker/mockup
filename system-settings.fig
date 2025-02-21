@@ -1,0 +1,70 @@
+// Sistem Ayarları Paneli
+- Container:
+  * Background: var(--white)
+  * Border-radius: 16px
+  * Padding: 32px
+
+// Kullanıcı Yönetimi
+- User Management:
+  * Rol Tanımları:
+    - Admin
+    - Tahsilat Yetkilisi
+  * Yetki Matrisi:
+    - Modül bazlı yetkiler
+    - İşlem bazlı yetkiler
+  * Kullanıcı İşlemleri:
+    - Ekleme/Düzenleme
+    - Pasife Alma
+    - Şifre Sıfırlama
+
+// Güvenlik Ayarları
+- Security Settings:
+  * Şifre Politikası:
+    - Minimum uzunluk
+    - Karmaşıklık kuralları
+    - Değişim periyodu
+  * Oturum Yönetimi:
+    - Timeout süresi
+    - Maksimum hatalı giriş
+    - IP kısıtlamaları
+  * 2FA Ayarları:
+    - SMS doğrulama
+    - Email doğrulama
+
+// Sistem Parametreleri
+- System Parameters:
+  * Ödeme Ayarları:
+    - Varsayılan para birimi
+    - KDV oranı
+    - Komisyon oranları
+  * Bildirim Ayarları:
+    - Email sunucu bilgileri
+    - SMS API bilgileri
+  * Dosya Yönetimi:
+    - İzin verilen formatlar
+    - Maksimum boyutlar
+    - Depolama limitleri
+
+// Log Yönetimi
+- Log Management:
+  * Log Seviyeleri:
+    - Error
+    - Warning
+    - Info
+    - Debug
+  * Log Rotasyonu:
+    - Saklama süresi
+    - Arşivleme kuralları
+  * Log Görüntüleme:
+    - Filtreler
+    - Export seçenekleri
+
+// Yedekleme
+- Backup Settings:
+  * Otomatik Yedekleme:
+    - Periyot
+    - Saklama süresi
+    - Lokasyon
+  * Manuel Yedekleme:
+    - Anlık yedek alma
+    - Yedekten dönme 

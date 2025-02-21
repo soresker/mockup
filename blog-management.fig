@@ -1,0 +1,56 @@
+// Blog Yönetim Paneli
+- Container:
+  * Background: var(--white)
+  * Border-radius: 16px
+  * Padding: 32px
+
+// Blog Post Listesi
+- Post Grid:
+  * Filtreler:
+    - Kategori
+    - Tarih
+    - Durum
+    - Yazar
+  * Liste Görünümü:
+    - Başlık
+    - Yayın Tarihi
+    - Kategori
+    - Durum
+    - Görüntülenme
+
+// Blog Post Editörü
+- Post Editor:
+  * Başlık
+  * İçerik (WYSIWYG)
+  * Featured Image
+  * Kategoriler
+  * Etiketler
+  * SEO Ayarları:
+    - Meta Title
+    - Meta Description
+    - URL Yapısı
+  * Sosyal Medya:
+    - OG Image
+    - Twitter Card
+    - Share Text
+
+// Kategori Yönetimi
+- Category Management:
+  * Kategori Listesi
+  * Kategori Detay:
+    - İsim
+    - Açıklama
+    - SEO Ayarları
+    - Parent Kategori
+
+// Blog Ayarları
+- Blog Settings:
+  * Sayfalama:
+    - Sayfa başı post
+    - Navigasyon stili
+  * Görünüm:
+    - Liste/Grid view
+    - Featured post sayısı
+  * Yorum Ayarları:
+    - Yorum moderasyonu
+    - Spam kontrolü 

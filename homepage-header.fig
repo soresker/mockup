@@ -1,0 +1,34 @@
+// Header Styling
+- Background: var(--white)
+- Border-bottom: 1px solid var(--gray-light)
+
+// Logo Section
+- TAV Technologies Logo (height: 40px)
+- Margin-left: 48px
+
+// Navigation Menu
+- Font: Helvetica Neue
+- Font-weight: 500
+- Color: var(--gray-dark)
+- Hover-color: var(--primary-blue)
+- Items:
+  * Ev Güvenlik Sistemleri
+  * İş Yeri Güvenlik Sistemleri
+  * Kurumsal Hizmetler
+  * İletişim
+
+// Right Section
+- Language Selector
+  * Background: var(--accent-blue)
+  * Border-radius: 4px
+  * Padding: 8px 12px
+  * Icon: Globe
+  * Text: "TR | EN"
+
+- Online İşlemler Button
+  * Background: var(--primary-blue)
+  * Color: var(--white)
+  * Border-radius: 4px
+  * Padding: 12px 24px
+  * Hover: var(--secondary-blue)
+  * Box-shadow: 0 2px 4px rgba(0,0,0,0.1) 

@@ -1,0 +1,54 @@
+// Bildirim Yönetim Paneli
+- Container:
+  * Background: var(--white)
+  * Border-radius: 16px
+  * Padding: 32px
+
+// Email Bildirimleri
+- Email Templates:
+  * Şablon Listesi:
+    - Ödeme Hatırlatma
+    - Başarılı Ödeme
+    - Başarısız Ödeme
+    - Hoş Geldin
+    - Şifre Sıfırlama
+  * Şablon Editörü:
+    - WYSIWYG Editor
+    - Değişken Ekleme
+    - Preview
+    - Test Mail Gönderimi
+
+// SMS Bildirimleri
+- SMS Templates:
+  * Karakter Sayacı
+  * Değişken Listesi
+  * Önizleme
+  * Test SMS
+
+// Bildirim Kuralları
+- Rules Engine:
+  * Tetikleyiciler:
+    - Ödeme Yaklaşan (3 gün kala)
+    - Ödeme Başarısız
+    - Yeni Abone
+    - Abonelik İptali
+  * Aksiyon Seçimi:
+    - Email
+    - SMS
+    - Admin Bildirimi
+  * Zamanlama:
+    - Anlık
+    - Gecikmeli
+    - Tekrarlı
+
+// Bildirim Geçmişi
+- History Log:
+  * Filtreler:
+    - Tarih Aralığı
+    - Bildirim Tipi
+    - Durum
+  * Detaylı Görüntüleme:
+    - Gönderim Zamanı
+    - İçerik
+    - Durum
+    - Hata Mesajları 

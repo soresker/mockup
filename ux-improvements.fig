@@ -1,0 +1,55 @@
+// Loading States
+- Skeleton Screens:
+  * Dashboard Cards
+  * Table Rows
+  * Form Elements
+- Progress Indicators:
+  * Upload Progress
+  * Payment Processing
+  * Form Submission
+
+// Error Handling
+- Error States:
+  * Form Validation:
+    - Inline Errors
+    - Error Icons
+    - Helper Text
+  * Empty States:
+    - İllüstrasyonlar
+    - Yönlendirici Mesajlar
+  * Network Errors:
+    - Retry Options
+    - Offline Support
+
+// Onboarding
+- First Time User:
+  * Welcome Screen
+  * Feature Tours:
+    - Dashboard Overview
+    - Payment Process
+    - Document Upload
+  * Quick Tips:
+    - Tooltips
+    - Contextual Help
+
+// Accessibility
+- A11y Features:
+  * ARIA Labels
+  * Keyboard Navigation
+  * Color Contrast
+  * Screen Reader Support
+  * Focus States
+
+// Performance
+- Optimization:
+  * Lazy Loading:
+    - Images
+    - Tables
+    - Charts
+  * Infinite Scroll:
+    - Blog Posts
+    - Notifications
+    - Logs
+  * Caching:
+    - Static Content
+    - User Preferences 

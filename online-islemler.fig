@@ -1,0 +1,70 @@
+// Login Page Container
+- Background: var(--accent-blue)
+- Min-height: 100vh
+- Padding: 80px 0
+
+// Login Card
+- Width: 480px
+- Background: var(--white)
+- Border-radius: 16px
+- Box-shadow: 0 15px 40px rgba(0,59,149,0.15)
+- Padding: 48px
+- Margin: 0 auto
+
+// Logo Section
+- Width: 200px
+- Margin: 0 auto 40px
+- Text-align: center
+
+// Login Form
+- Title:
+  * Text: "Online İşlemler"
+  * Font-size: 32px
+  * Color: var(--primary-blue)
+  * Font-weight: 700
+  * Margin-bottom: 32px
+  * Text-align: center
+
+- Input Fields:
+  * Common Styles:
+    - Width: 100%
+    - Padding: 16px
+    - Border: 2px solid var(--gray-light)
+    - Border-radius: 8px
+    - Font-size: 16px
+    - Margin-bottom: 20px
+    - Transition: border-color 0.3s
+    - Focus:
+      * Border-color: var(--secondary-blue)
+      * Box-shadow: 0 0 0 4px rgba(0,102,255,0.1)
+
+  * Abone No / Email Input
+  * Password Input
+    - Show/Hide Password Toggle
+
+- Forgot Password Link:
+  * Color: var(--gray-medium)
+  * Font-size: 14px
+  * Text-align: right
+  * Margin-bottom: 24px
+  * Hover: Color var(--primary-blue)
+
+- Login Button:
+  * Background: var(--primary-blue)
+  * Color: white
+  * Width: 100%
+  * Padding: 18px
+  * Border-radius: 8px
+  * Font-size: 18px
+  * Font-weight: 600
+  * Box-shadow: 0 4px 15px rgba(0,59,149,0.2)
+  * Hover:
+    - Transform: translateY(-2px)
+    - Box-shadow: 0 6px 20px rgba(0,59,149,0.3)
+
+// Security Info
+- Margin-top: 32px
+- Text-align: center
+- Color: var(--gray-medium)
+- Icon: Shield
+- Text: "256-bit SSL ile güvenli bağlantı" 

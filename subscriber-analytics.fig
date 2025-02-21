@@ -1,0 +1,69 @@
+// Abone Analiz Paneli
+- Container:
+  * Background: var(--white)
+  * Border-radius: 16px
+  * Padding: 32px
+
+// Genel Metrikler
+- KPI Dashboard:
+  * Toplam Gelir:
+    - Aylık Trend
+    - YTD Karşılaştırma
+    - Tahsilat Oranı
+  * Abone Metrikleri:
+    - Aktif Aboneler
+    - Yeni Aboneler
+    - İptal Edilen Aboneler
+    - Churn Rate
+  * Ödeme Performansı:
+    - Başarılı Ödemeler
+    - Başarısız Ödemeler
+    - Bekleyen Ödemeler
+
+// Segment Analizi
+- Subscriber Segments:
+  * Abonelik Tiplerine Göre:
+    - Ev Güvenlik
+    - İş Yeri Güvenlik
+    - Kurumsal
+  * Bölgesel Dağılım:
+    - Harita Görünümü
+    - Bölge Bazlı Metrikler
+  * Ödeme Davranışı:
+    - Düzenli Ödeyenler
+    - Geç Ödeyenler
+    - Riskli Grup
+
+// Tahsilat Takvimi
+- Collection Calendar:
+  * Aylık Görünüm:
+    - Yaklaşan Ödemeler
+    - Geciken Ödemeler
+    - Toplam Beklenen Gelir
+  * Günlük Breakdown:
+    - Ödeme Sayısı
+    - Toplam Tutar
+    - Başarı Oranı
+
+// Trend Analizleri
+- Trend Charts:
+  * Büyüme Trendi:
+    - Abone Artışı
+    - Gelir Artışı
+    - Segment Bazlı Büyüme
+  * Sezonsal Analiz:
+    - Aylık Patern
+    - Peak Dönemler
+    - Düşük Sezonlar
+
+// Tahmin Modelleri
+- Forecasting:
+  * Gelir Tahmini:
+    - Gelecek 3 Ay
+    - Yıl Sonu Projeksiyonu
+  * Churn Prediction:
+    - Risk Skorları
+    - Erken Uyarı Sistemi
+  * Kapasite Planlaması:
+    - Büyüme Projeksiyonu
+    - Kaynak İhtiyacı 

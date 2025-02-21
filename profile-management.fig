@@ -1,0 +1,50 @@
+// Kullanıcı Profil Yönetimi
+- Container:
+  * Two Column Layout
+  * Background: var(--white)
+  * Padding: 32px
+
+// Sol Kolon - Profil Özeti
+- Profile Summary:
+  * Profil Başlığı:
+    - Abone No
+    - Üyelik Tarihi
+    - Abonelik Tipi
+  * Kişisel Bilgiler:
+    - Ad Soyad
+    - E-posta
+    - Telefon
+    - Adres
+  * Hızlı İşlemler:
+    - Şifre Değiştir
+    - İletişim Tercihleri
+    - Bildirim Ayarları
+
+// Sağ Kolon - Detaylı Bilgiler
+- Profile Details:
+  * İletişim Bilgileri:
+    - Form Alanları:
+      * E-posta (Doğrulanmış)
+      * Cep Telefonu (Doğrulanmış)
+      * Sabit Telefon
+      * Fatura Adresi
+      * Teslimat Adresi
+    - Güncelle Butonu
+  
+  * Güvenlik Ayarları:
+    - 2FA Durumu
+    - Son Giriş Bilgileri
+    - Aktif Oturumlar
+    - Cihaz Yönetimi
+
+  * Bildirim Tercihleri:
+    - E-posta Bildirimleri:
+      * Fatura Bildirimleri
+      * Ödeme Hatırlatmaları
+      * Sistem Bildirimleri
+    - SMS Bildirimleri:
+      * Acil Durumlar
+      * Ödeme Hatırlatmaları
+    - Push Bildirimleri:
+      * Alarm Durumları
+      * Sistem Uyarıları 

@@ -1,0 +1,52 @@
+// İyzico Entegrasyon Ayarları
+- Container:
+  * Background: var(--white)
+  * Border-radius: 16px
+  * Shadow: 0 4px 12px rgba(0,0,0,0.1)
+
+// API Credentials
+- Configuration Card:
+  * API Key Input
+  * Secret Key Input
+  * Sandbox Mode Toggle
+  * Test Connection Button
+
+// Ödeme Ayarları
+- Payment Settings:
+  * Varsayılan Para Birimi
+  * 3D Secure Zorunluluğu
+  * Taksit Seçenekleri
+  * Komisyon Oranları
+
+// Otomatik Ödeme Kuralları
+- Auto Payment Rules:
+  * Deneme Sayısı (3)
+  * Deneme Aralığı (1 gün)
+  * Başarısız Ödeme Aksiyonları:
+    - Email Bildirimi
+    - SMS Bildirimi
+    - Admin Bildirimi
+
+// Webhook Ayarları
+- Webhook Configuration:
+  * Endpoint URL
+  * Secret Token
+  * Event Types:
+    - Successful Payment
+    - Failed Payment
+    - Subscription Created
+    - Subscription Cancelled
+
+// Test Paneli
+- Test Tools:
+  * Test Kartları
+  * Örnek İşlemler
+  * Response Simulator
+  * Log Viewer
+
+// Raporlama Ayarları
+- Reporting Settings:
+  * Daily Summary
+  * Failed Transaction Alerts
+  * Success Rate Monitoring
+  * Threshold Alerts 

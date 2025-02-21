@@ -1,0 +1,108 @@
+// Admin Dashboard Container
+- Background: var(--accent-blue)
+- Min-height: 100vh
+
+// Top Navigation
+- Height: 72px
+- Background: var(--white)
+- Box-shadow: 0 2px 10px rgba(0,0,0,0.05)
+- Display: flex
+- Justify-content: space-between
+- Padding: 0 32px
+
+- Left Side:
+  * Logo
+  * Role Badge:
+    - Text: "Admin Panel" veya "Tahsilat Yetkilisi"
+    - Background: var(--accent-blue)
+    - Color: var(--primary-blue)
+
+- Right Side:
+  * User Dropdown
+  * Notifications:
+    - Badge: Bekleyen ödeme sayısı
+
+// Main Layout
+- Display: grid
+- Grid-template-columns: 260px 1fr
+- Gap: 24px
+- Padding: 24px
+
+// Sidebar Menu
+- Background: var(--white)
+- Border-radius: 16px
+- Padding: 24px
+
+- Menu Items:
+  * Dashboard
+  * Aboneler
+  * Ödemeler
+  * Raporlar
+  * Ayarlar
+
+// Dashboard Content
+- Cards Grid:
+  * Toplam Abone Sayısı
+  * Aktif Aboneler
+  * Bekleyen Ödemeler
+  * Aylık Gelir
+
+- Charts Section:
+  * Abonelik Türü Dağılımı (Pie Chart)
+  * Aylık Gelir Grafiği (Line Chart)
+  * Ödeme Başarı Oranı (Progress Bar)
+
+// Aboneler Tablosu
+- Filters:
+  * Search Input
+  * Date Range
+  * Abonelik Türü
+  * Ödeme Durumu
+
+- Table Columns:
+  * Abone No
+  * Ad Soyad
+  * Abonelik Türü
+  * Başlangıç Tarihi
+  * Son Ödeme
+  * Durum
+  * İşlemler
+
+- Export Options:
+  * Excel Export Button
+  * PDF Export Button
+
+// Yeni Abone Ekleme Form
+- Two Column Layout
+- Required Fields:
+  * Ad Soyad
+  * Email
+  * Telefon
+  * Abonelik Türü
+  * Ödeme Periyodu
+  * Ödeme Yöntemi
+  * Başlangıç Tarihi
+
+// Ödeme Takip Dashboard
+- Kritik Ödemeler:
+  * 3 gün içinde ödemesi gelecekler
+  * Ödemesi geciken aboneler
+  * Başarısız ödemeler
+
+- Ödeme İşlemleri:
+  * Manuel ödeme alma
+  * Ödeme planı görüntüleme
+  * İyzico entegrasyonu durumu
+
+// Raporlama Ekranı
+- Date Range Selector
+- Metric Cards:
+  * Toplam Gelir
+  * Ortalama Ödeme Tutarı
+  * Başarılı Ödeme Oranı
+  * Aktif Abone Sayısı
+
+- Detailed Charts:
+  * Abonelik türüne göre gelir dağılımı
+  * Aylık trend analizi
+  * Ödeme başarı oranları 

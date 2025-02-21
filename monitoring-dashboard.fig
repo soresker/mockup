@@ -1,0 +1,57 @@
+// Alarm İzleme Merkezi
+- Container:
+  * Background: var(--dark-blue)
+  * Full Screen Layout
+
+// Gerçek Zamanlı İzleme
+- Live Monitoring:
+  * Alarm Durumları:
+    - Aktif Alarmlar (Kırmızı)
+    - Bekleyen Alarmlar (Sarı)
+    - Çözülmüş Alarmlar (Yeşil)
+  * Harita Görünümü:
+    - Lokasyon Bazlı Alarmlar
+    - Cluster View
+    - Hızlı Filtreleme
+  * Olay Akışı:
+    - Real-time Feed
+    - Öncelik Sıralaması
+    - Hızlı Aksiyon Butonları
+
+// Alarm Detay Kartı
+- Alarm Details:
+  * Temel Bilgiler:
+    - Abone Bilgisi
+    - Alarm Tipi
+    - Lokasyon
+    - Başlangıç Zamanı
+  * Aksiyon Paneli:
+    - Müdahale Ekibi Atama
+    - Yetkili Kişi Arama
+    - Durum Güncelleme
+  * Kamera Entegrasyonu:
+    - Canlı Görüntü
+    - Son Hareket Kaydı
+    - Snapshot Alma
+
+// İstatistik Paneli
+- Statistics:
+  * Günlük Özet:
+    - Toplam Alarm Sayısı
+    - Ortalama Müdahale Süresi
+    - Başarılı Müdahale Oranı
+  * Trend Analizi:
+    - Saatlik Dağılım
+    - Bölgesel Yoğunluk
+    - Alarm Tipleri
+
+// Ekip Yönetimi
+- Team Management:
+  * Ekip Durumu:
+    - Aktif Ekipler
+    - Müsait Ekipler
+    - Görevdeki Ekipler
+  * Görev Ataması:
+    - Drag & Drop Atama
+    - Otomatik Rotalama
+    - Öncelik Belirleme 

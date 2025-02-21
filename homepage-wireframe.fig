@@ -1,0 +1,108 @@
+// Header Section
+- Rectangle 1 (width: 100%, height: 80px)
+  - Logo (left)
+  - Navigation Menu (center)
+  - Language Selector (right)
+  - Online İşlemler Button (right, primary color)
+
+// Hero Section
+- Hero Container:
+  * Full Screen Height
+  * Video Background (Güvenlik sistemleri demo)
+  * Overlay Gradient
+  
+  * Content:
+    - H1: "7/24 Profesyonel Alarm İzleme Merkezi"
+    - Subtitle: "Eviniz ve İşyeriniz Güvende"
+    - CTA Buttons:
+      * "Hemen Başvur" (Primary)
+      * "Çözümlerimizi İncele" (Secondary)
+    - Trust Badges:
+      * "10.000+ Aktif Kullanıcı"
+      * "99.9% Uptime"
+      * "24/7 İzleme"
+
+// Main Categories
+- Service Categories:
+  * Grid Layout (3x1):
+    - Ev Güvenlik:
+      * Animasyonlu İkon
+      * Öne Çıkan Özellikler (3)
+      * Fiyat Başlangıç
+      * "Detaylı Bilgi" Butonu
+    
+    - İş Yeri Güvenlik:
+      * Animasyonlu İkon
+      * Öne Çıkan Özellikler (3)
+      * Fiyat Başlangıç
+      * "Detaylı Bilgi" Butonu
+    
+    - Kurumsal Güvenlik:
+      * Animasyonlu İkon
+      * Öne Çıkan Özellikler (3)
+      * "Teklif Al" Butonu
+
+// Featured Services
+- Section Title
+- Grid Container (4 columns)
+  - Service Card (x8)
+    - Image
+    - Title
+    - Short Description
+    - Learn More Link
+
+// Contact Form Section
+- Two Column Layout
+  - Left: Contact Form
+    - Name Input
+    - Email Input
+    - Phone Input
+    - Message Textarea
+    - Submit Button
+  - Right: Contact Info
+    - Address
+    - Phone
+    - Email
+    - Social Media Links
+
+// Footer
+- Four Column Layout
+  - Company Info
+  - Quick Links
+  - Services
+  - Newsletter Signup
+- Bottom Bar
+  - Copyright
+  - Privacy Policy
+  - Terms of Service
+
+// Nasıl Çalışır - Yeni Bölüm
+- How It Works:
+  * Step-by-Step Animasyon
+  * 4 Adım:
+    - Başvuru
+    - Kurulum
+    - Aktivasyon
+    - 7/24 İzleme
+  * İnteraktif Gösterim
+
+// Canlı Demo - Yeni Bölüm
+- Live Demo Section:
+  * İnteraktif Dashboard Preview
+  * Örnek Alarm Senaryoları
+  * Mobil App Gösterimi
+  * "Demoyu Deneyin" CTA
+
+// Müşteri Yorumları - İyileştirilmiş
+- Testimonials:
+  * Video Testimonials
+  * Başarı Hikayeleri
+  * Müşteri Logoları
+  * Güvenlik İstatistikleri
+
+// Blog ve Haberler - Yeni
+- News Section:
+  * Latest Posts Grid
+  * Güvenlik Tavsiyeleri
+  * Sektör Haberleri
+  * "Tümünü Gör" Butonu 

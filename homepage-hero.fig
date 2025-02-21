@@ -1,0 +1,51 @@
+// Hero Container
+- Background: 
+  * Gradient: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-blue) 100%)
+  * Overlay Pattern: Subtle security-themed SVG pattern (opacity: 0.1)
+- Height: 700px
+- Padding: 80px 0
+
+// Content Layout
+- Left Column (40%)
+  * H1 Heading
+    - Color: var(--white)
+    - Font-size: 56px
+    - Font-weight: 700
+    - Line-height: 1.2
+    - Text: "7/24 Profesyonel Güvenlik Çözümleri"
+    - Text-shadow: 0 2px 4px rgba(0,0,0,0.1)
+    - Animation: Fade-in-up (0.8s)
+  
+  * Description
+    - Color: var(--accent-blue)
+    - Font-size: 20px
+    - Line-height: 1.6
+    - Margin-top: 32px
+    - Text: "Türkiye'nin en güvenilir alarm izleme merkezi ile 
+            eviniz ve işyeriniz 7/24 güvende"
+    - Animation: Fade-in-up (1s)
+  
+  * CTA Button
+    - Background: var(--white)
+    - Color: var(--primary-blue)
+    - Font-size: 18px
+    - Font-weight: 600
+    - Border-radius: 8px
+    - Padding: 20px 40px
+    - Margin-top: 40px
+    - Text: "HEMEN TEKLİF ALIN →"
+    - Box-shadow: 0 4px 15px rgba(0,0,0,0.1)
+    - Hover: 
+      * Transform: scale(1.05)
+      * Box-shadow: 0 8px 25px rgba(0,0,0,0.15)
+    - Animation: Fade-in-up (1.2s)
+
+- Right Column (60%)
+  * Security Camera Image Composition
+    - Main Image: Modern güvenlik kamerası
+    - Floating Elements:
+      * 7/24 İzleme badge (sağ üst)
+      * Mobil kontrol ekranı (sol alt)
+      * Anlık bildirim örneği (sağ alt)
+    - Animation: Fade-in-right (1s)
+    - Box-shadow: 0 30px 60px rgba(0,0,0,0.25) 

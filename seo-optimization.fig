@@ -1,0 +1,38 @@
+// SEO Yönetim Paneli
+- Container:
+  * Background: var(--white)
+  * Padding: 32px
+
+// Sayfa SEO Analizi
+- Page Analysis:
+  * SEO Skor Kartı:
+    - Genel Puan
+    - İyileştirme Önerileri
+  * Kontrol Listesi:
+    - Meta Başlıklar
+    - Meta Açıklamalar
+    - URL Yapısı
+    - Heading Hiyerarşisi
+    - Alt Etiketleri
+    - İç Linkler
+
+// Sitemap Yönetimi
+- Sitemap Settings:
+  * Otomatik Güncelleme
+  * Öncelik Ayarları
+  * Değişiklik Sıklığı
+  * Hariç Tutulan Sayfalar
+
+// Robots.txt Editörü
+- Robots Management:
+  * Dizin Kuralları
+  * Crawl-delay Ayarları
+  * Sitemap Referansı
+  * User-agent Kuralları
+
+// Performans Optimizasyonu
+- Performance Tools:
+  * Sayfa Hızı Analizi
+  * Resim Optimizasyonu
+  * Cache Yönetimi
+  * CDN Entegrasyonu 

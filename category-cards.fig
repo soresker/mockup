@@ -1,0 +1,78 @@
+// Category Section Container
+- Padding: 80px 0
+- Background: var(--accent-blue)
+
+// Section Title
+- Text: "Güvenlik Çözümlerimiz"
+- Font-size: 42px
+- Color: var(--primary-blue)
+- Text-align: center
+- Margin-bottom: 60px
+
+// Category Card Container
+- Display: Grid
+- Grid-template-columns: repeat(3, 1fr)
+- Gap: 30px
+- Max-width: 1200px
+- Margin: 0 auto
+
+// Individual Card
+- Background: var(--white)
+- Border-radius: 16px
+- Box-shadow: 0 8px 30px rgba(0,59,149,0.1)
+- Padding: 40px
+- Height: 400px
+- Position: relative
+- Overflow: hidden
+- Hover: 
+  * Transform: translateY(-10px)
+  * Box-shadow: 0 15px 40px rgba(0,59,149,0.2)
+- Transition: all 0.4s ease
+
+// Icon Container
+- Size: 80x80px
+- Background: var(--accent-blue)
+- Border-radius: 20px
+- Display: flex
+- Align-items: center
+- Justify-content: center
+- Margin-bottom: 30px
+
+// Icon
+- Size: 48x48px
+- Color: var(--primary-blue)
+- Animation: Float 3s infinite
+
+// Title
+- Color: var(--primary-blue)
+- Font-size: 28px
+- Font-weight: 700
+- Margin: 20px 0
+
+// Description
+- Color: var(--gray-medium)
+- Font-size: 17px
+- Line-height: 1.7
+- Margin: 20px 0
+
+// Link
+- Position: absolute
+- Bottom: 40px
+- Left: 40px
+- Color: var(--secondary-blue)
+- Font-size: 18px
+- Font-weight: 600
+- Display: flex
+- Align-items: center
+- Gap: 8px
+- Hover:
+  * Gap: 12px
+  * Color: var(--primary-blue)
+
+// Decorative Elements
+- Background Pattern:
+  * Position: absolute
+  * Top: 0
+  * Right: 0
+  * Opacity: 0.05
+  * Size: 200x200px 

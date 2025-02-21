@@ -1,0 +1,44 @@
+// Sözleşme ve Döküman Görüntüleme
+- Container:
+  * Full Width Layout
+  * Background: var(--white)
+  * Padding: 24px
+
+// Döküman Kategorileri
+- Document Categories:
+  * Tabs:
+    - Sözleşmeler
+    - Kullanım Kılavuzları
+    - Faturalar
+    - Diğer Belgeler
+  * Search Bar:
+    - Döküman Arama
+    - Filtreler
+
+// Döküman Listesi
+- Document Grid:
+  * Döküman Kartı:
+    - İkon/Thumbnail
+    - Döküman Adı
+    - Yüklenme Tarihi
+    - Dosya Boyutu
+    - Durum (Aktif/Pasif)
+    - İşlemler:
+      * Görüntüle
+      * İndir
+      * Paylaş
+
+// Döküman Önizleme
+- Document Preview:
+  * PDF Viewer:
+    - Zoom Kontrolleri
+    - Sayfa Navigasyonu
+    - Arama
+    - Yazdırma
+  * Meta Bilgiler:
+    - Versiyon
+    - Son Güncelleme
+    - İlgili Abonelik
+  * İşlem Geçmişi:
+    - Görüntüleme Logları
+    - İndirme Logları 

@@ -1,0 +1,52 @@
+// Fatura ve Ödeme Geçmişi
+- Container:
+  * Background: var(--white)
+  * Border-radius: 16px
+  * Padding: 32px
+
+// Özet Kartları
+- Summary Cards:
+  * Son Ödeme:
+    - Tutar
+    - Tarih
+    - Durum İndikatörü
+  * Gelecek Ödeme:
+    - Vade Tarihi
+    - Tutar
+    - Ödeme Butonu
+  * Toplam Borç/Alacak:
+    - Net Bakiye
+    - Trend Göstergesi
+
+// Fatura Listesi
+- Invoice List:
+  * Filtreler:
+    - Tarih Aralığı
+    - Ödeme Durumu
+    - Fatura Tipi
+  * Liste Görünümü:
+    - Fatura No
+    - Düzenleme Tarihi
+    - Son Ödeme Tarihi
+    - Tutar
+    - Durum
+    - İşlemler:
+      * PDF İndir
+      * E-posta Gönder
+      * Online Ödeme
+  * Pagination:
+    - Sayfa Başı Kayıt
+    - Sayfa Numaraları
+    - İleri/Geri
+
+// Ödeme Geçmişi
+- Payment History:
+  * Timeline View:
+    - Tarih
+    - İşlem Tipi
+    - Tutar
+    - Ödeme Yöntemi
+    - Referans No
+  * Grafik Görünümü:
+    - Aylık Ödeme Trendi
+    - Ödeme Yöntemi Dağılımı 

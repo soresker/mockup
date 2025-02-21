@@ -1,0 +1,52 @@
+// Destek Yönetim Paneli
+- Container:
+  * Background: var(--white)
+  * Padding: 32px
+
+// Ticket Sistemi
+- Ticket Management:
+  * Ticket Oluşturma:
+    - Öncelik Seviyeleri
+    - Kategori Seçimi
+    - Atama Sistemi
+  * Ticket Listesi:
+    - Status Tracking
+    - SLA Takibi
+    - Escalation Rules
+
+// Müşteri İletişimi
+- Communication Hub:
+  * Mesajlaşma:
+    - Ticket Thread
+    - Dosya Ekleme
+    - Şablon Yanıtlar
+  * Bildirimler:
+    - Email Updates
+    - SMS Bildirimleri
+    - Push Notifications
+
+// Bilgi Bankası
+- Knowledge Base:
+  * SSS Bölümü
+  * Kullanım Kılavuzları
+  * Video Tutorials
+  * Troubleshooting Guides
+
+// Müşteri Profili
+- Customer Profile:
+  * Abonelik Bilgileri
+  * İletişim Geçmişi
+  * Ödeme Geçmişi
+  * Destek Talepleri
+  * Cihaz Bilgileri
+
+// Raporlama
+- Support Analytics:
+  * Response Metrics:
+    - Ortalama Yanıt Süresi
+    - Çözüm Süresi
+    - Müşteri Memnuniyeti
+  * Issue Tracking:
+    - Yaygın Sorunlar
+    - Çözüm Oranları
+    - Kategori Dağılımı 

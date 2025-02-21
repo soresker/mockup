@@ -1,0 +1,152 @@
+// Dashboard Container
+- Background: var(--accent-blue)
+- Min-height: 100vh
+
+// Top Navigation
+- Height: 72px
+- Background: var(--white)
+- Box-shadow: 0 2px 10px rgba(0,0,0,0.05)
+- Padding: 0 32px
+- Display: flex
+- Justify-content: space-between
+- Align-items: center
+
+- Left Side:
+  * Logo
+  * Page Title
+
+- Right Side:
+  * Notifications Icon
+  * User Menu Dropdown
+
+// Main Content
+- Padding: 40px
+- Display: grid
+- Grid-template-columns: 280px 1fr
+- Gap: 32px
+
+// Sidebar
+- Background: var(--white)
+- Border-radius: 16px
+- Padding: 24px
+- Height: fit-content
+
+- Menu Items:
+  * Common Styles:
+    - Padding: 16px
+    - Border-radius: 8px
+    - Margin-bottom: 8px
+    - Font-weight: 500
+    - Display: flex
+    - Gap: 12px
+    - Align-items: center
+  
+  * Active State:
+    - Background: var(--primary-blue)
+    - Color: var(--white)
+
+// Content Area
+- Background: var(--white)
+- Border-radius: 16px
+- Padding: 32px
+
+// Dashboard Cards Grid
+- Display: grid
+- Grid-template-columns: repeat(3, 1fr)
+- Gap: 24px
+
+- Info Cards:
+  * Background: var(--white)
+  * Border-radius: 12px
+  * Padding: 24px
+  * Box-shadow: 0 4px 20px rgba(0,59,149,0.08)
+  * Display: flex
+  * Flex-direction: column
+  * Gap: 16px
+
+// Payment History Table
+- Margin-top: 40px
+- Width: 100%
+- Border-collapse: separate
+- Border-spacing: 0 8px
+
+- Table Headers:
+  * Background: var(--accent-blue)
+  * Color: var(--primary-blue)
+  * Font-weight: 600
+  * Text-align: left
+  * Padding: 16px
+
+- Table Rows:
+  * Background: var(--white)
+  * Border-radius: 8px
+  * Transition: background 0.3s
+  * Hover: Background var(--accent-blue)
+
+// Abone Dashboard - Yeniden Tasarlanmış
+- Dashboard Container:
+  * Responsive Grid Layout
+  * Quick Actions Bar
+
+// Üst Bilgi Kartı - Yeni
+- Info Card:
+  * Sistem Durumu:
+    - Büyük Status İndikatör
+    - Son Kontrol Zamanı
+    - Aktif Sensör Sayısı
+  * Hızlı Aksiyonlar:
+    - Sistem Kur/Kapat
+    - Test Modu
+    - Acil Durum Butonu
+
+// Ana Dashboard Grid - İyileştirilmiş
+- Dashboard Grid:
+  * 2x2 Layout:
+    - Alarm Durumu:
+      * Son 24 Saat Özeti
+      * Aktif Alarmlar
+      * Hızlı Müdahale Butonları
+    
+    - Cihaz Sağlığı:
+      * Sensör Durumları
+      * Pil Seviyeleri
+      * Bakım Hatırlatmaları
+    
+    - Ödeme Bilgileri:
+      * Son Ödeme
+      * Gelecek Ödeme
+      * Fatura Görüntüleme
+    
+    - Aktivite Özeti:
+      * Son Olaylar
+      * Kullanıcı İşlemleri
+      * Sistem Logları
+
+// Kamera İzleme - Yeni
+- Camera Monitoring:
+  * Grid View:
+    - Canlı Yayın
+    - Son Hareketler
+    - Snapshot Alma
+  * Hızlı Kontroller:
+    - PTZ Kontrol
+    - Kayıt Başlat/Durdur
+    - Görüntü Ayarları
+
+// İletişim Merkezi - Yeni
+- Communication Hub:
+  * Destek Talepleri
+  * Bildirim Merkezi
+  * Mesajlar
+  * Duyurular
+
+// Alt Bilgi Paneli
+- Footer Panel:
+  * Hızlı Linkler:
+    - Kullanım Kılavuzu
+    - SSS
+    - Destek
+  * Sistem Bilgileri:
+    - Versiyon
+    - Son Güncelleme
+    - Bağlantı Durumu 

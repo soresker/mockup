@@ -1,0 +1,51 @@
+// Güvenlik Kontrol Paneli
+- Security Dashboard:
+  * Güvenlik Skoru
+  * Son Olaylar
+  * Aktif Tehditler
+  * Güvenlik Tavsiyeleri
+
+// Oturum Güvenliği
+- Session Management:
+  * Oturum Süreleri
+  * IP Kısıtlamaları
+  * Cihaz Doğrulama
+  * Şüpheli Aktivite Tespiti
+
+// Veri Güvenliği
+- Data Protection:
+  * Şifreleme Ayarları:
+    - Veritabanı Şifreleme
+    - Dosya Şifreleme
+    - İletişim Şifreleme
+  * Yedekleme Politikaları:
+    - Otomatik Yedekleme
+    - Şifreli Depolama
+    - Yedek Doğrulama
+
+// Güvenlik Duvarı
+- Firewall Settings:
+  * İstek Limitleri
+  * IP Bloklama
+  * XSS Koruması
+  * SQL Injection Koruması
+  * CSRF Koruması
+
+// İzleme ve Raporlama
+- Security Monitoring:
+  * Aktivite Logları
+  * Güvenlik Olayları
+  * Giriş Denemeleri
+  * Şüpheli İşlemler
+  * Otomatik Bildirimler:
+    - Email Alerts
+    - SMS Alerts
+    - Dashboard Notifications
+
+// Ödeme Güvenliği
+- Payment Security:
+  * PCI DSS Uyumluluğu
+  * 3D Secure
+  * Fraud Detection
+  * İşlem Limitleri
+  * Risk Analizi 

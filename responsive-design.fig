@@ -1,0 +1,57 @@
+// Responsive Breakpoints
+- Breakpoints:
+  * Desktop: > 1200px
+  * Tablet: 768px - 1199px
+  * Mobile: < 767px
+
+// Mobile Header
+- Mobile Navigation:
+  * Hamburger Menu
+  * Logo (centered)
+  * Quick Actions:
+    - Language Toggle
+    - Login Button
+  * Slide-out Menu:
+    - Ana Menü
+    - Alt Menüler
+    - İletişim Bilgileri
+
+// Mobile Dashboard
+- Stack Layout:
+  * Full Width Cards
+  * Scrollable Tables
+  * Simplified Charts
+  * Touch-friendly Buttons:
+    - Min height: 44px
+    - Min width: 44px
+    - Padding: 12px
+
+// Mobile Forms
+- Form Elements:
+  * Large Input Fields
+    - Height: 48px
+    - Font-size: 16px
+  * Touch-friendly Dropdowns
+  * Native Date Pickers
+  * Full Width Buttons
+
+// Tablet Adaptations
+- Two Column Layout:
+  * Sidebar (collapsible)
+  * Main Content
+  * Flexible Grids:
+    - 2 columns on tablet
+    - 1 column on mobile
+
+// Touch Interactions
+- Gesture Support:
+  * Swipe Actions:
+    - Menu Navigation
+    - Table Scroll
+    - Gallery Navigation
+  * Pinch to Zoom:
+    - Images
+    - Documents
+  * Pull to Refresh:
+    - Lists
+    - Dashboards 

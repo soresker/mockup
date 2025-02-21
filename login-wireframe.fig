@@ -1,0 +1,24 @@
+// Login Container (center aligned)
+- Card Container
+  - Logo (top center)
+  - Login Form
+    - Title: "Online İşlemler"
+    - Input: Abone No / Email
+    - Input: Password
+    - Forgot Password Link
+    - Login Button
+    - Captcha
+  - Help Text
+    - Contact Support Link
+
+// Mobile Responsive Breakpoints
+@media mobile {
+  - Stack all elements vertically
+  - Reduce padding
+  - Full width inputs
+}
+
+@media tablet {
+  - Center card with max-width
+  - Maintain readable form width
+} 

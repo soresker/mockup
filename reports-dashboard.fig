@@ -1,0 +1,56 @@
+// Reports Container
+- Full Width Layout
+- White Background
+- Padding: 32px
+
+// Filters Bar
+- Date Range Picker
+- Export Options:
+  * Excel
+  * PDF
+  * CSV
+- Filter Chips:
+  * Abonelik Türü
+  * Ödeme Durumu
+  * Bölge
+
+// Analytics Grid
+- 4-Column Layout
+- Metric Cards:
+  * Total Revenue
+    - Ana Rakam
+    - Önceki Dönem Karşılaştırma
+    - Trend Indicator
+  * Active Subscribers
+  * Payment Success Rate
+  * Average Payment Amount
+
+// Chart Sections
+- Line Chart:
+  * Aylık Gelir Trendi
+  * Multiple Series Support
+  * Interactive Tooltips
+  * Legend
+
+- Pie Chart:
+  * Abonelik Türü Dağılımı
+  * Interactive Segments
+  * Percentage Labels
+
+- Bar Chart:
+  * Ödeme Başarı Oranları
+  * Monthly Comparison
+  * Color Coded Bars
+
+// Detailed Tables
+- Revenue Table:
+  * Sortable Columns
+  * Pagination
+  * Search/Filter
+  * Export Options
+
+- Performance Metrics:
+  * Conversion Rates
+  * Churn Rate
+  * Growth Rate
+  * MRR (Monthly Recurring Revenue) 

@@ -1,0 +1,51 @@
+// Mobil Uygulama Ana Ekran
+- Container:
+  * Native Mobile Layout
+  * Dark/Light Theme Support
+
+// Ana Menü
+- Bottom Navigation:
+  * Dashboard
+  * Alarmlar
+  * Kameralar
+  * Ayarlar
+  * Profil
+
+// Alarm İzleme
+- Alarm Monitoring:
+  * Hızlı Durum Kartları:
+    - Sistem Durumu
+    - Son Alarmlar
+    - Aktif Sensörler
+  * Anlık Bildirimler:
+    - Push Notifications
+    - Sesli Uyarılar
+    - Titreşim
+
+// Kamera Görüntüleme
+- Camera View:
+  * Kamera Listesi
+  * Canlı İzleme
+  * Geçmiş Kayıtlar
+  * Hareket Algılama
+
+// Kullanıcı Kontrolleri
+- User Controls:
+  * Sistem Kurma/Kapama
+  * Bölge Kontrolü
+  * Sensör Yönetimi
+  * Kullanıcı İzinleri
+
+// Raporlar ve Geçmiş
+- History:
+  * Alarm Geçmişi
+  * Sistem Logları
+  * Kullanıcı İşlemleri
+  * Özelleştirilmiş Raporlar
+
+// Ayarlar
+- Settings:
+  * Bildirim Ayarları
+  * Güvenlik Ayarları
+  * Cihaz Yönetimi
+  * Hesap Ayarları 

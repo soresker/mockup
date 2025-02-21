@@ -1,0 +1,37 @@
+// Dashboard Layout
+- Top Bar
+  - Welcome Message
+  - Notifications
+  - Profile Menu
+
+- Sidebar
+  - User Info
+  - Navigation Menu
+    - Dashboard
+    - Abonelik Bilgileri
+    - Ödeme Geçmişi
+    - Dökümanlar
+    - Profil
+  - Logout Button
+
+- Main Content Area
+  - Quick Stats
+    - Current Plan
+    - Next Payment
+    - Active Services
+  
+  - Payment Section
+    - Outstanding Payments
+    - Payment History Table
+  
+  - Documents Section
+    - Contracts
+    - User Manuals
+    - Download Links
+
+// Responsive Design
+@media mobile {
+  - Hide sidebar (show hamburger menu)
+  - Stack all cards vertically
+  - Simplified tables
+} 

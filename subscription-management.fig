@@ -1,0 +1,59 @@
+// Abonelik Yönetim Ekranı
+- Container:
+  * Background: var(--white)
+  * Border-radius: 16px
+  * Padding: 32px
+
+// Abonelik Tipleri Yönetimi
+- Abonelik Kartları:
+  * Header:
+    - İkon
+    - Başlık
+    - Durum (Aktif/Pasif)
+  * İçerik:
+    - Aylık Ücret
+    - Özellikler Listesi
+    - Abone Sayısı
+  * Footer:
+    - Düzenle Butonu
+    - Arşivle Butonu
+
+// Döküman Yönetimi
+- Döküman Upload Alanı:
+  * Drag & Drop Bölgesi
+    - Max dosya boyutu: 3MB
+    - İzin verilen format: PDF
+  * Yüklenen Dökümanlar Listesi:
+    - Sözleşmeler
+    - Kullanım Kılavuzları
+    - Diğer Dökümanlar
+
+// Döküman Kartı
+- File Info:
+  * Dosya Adı
+  * Yükleme Tarihi
+  * Boyut
+  * Tip
+- Actions:
+  * Preview
+  * Download
+  * Delete
+  * Assign to Subscriber
+
+// Abone-Döküman İlişkilendirme
+- Matrix View:
+  * Rows: Aboneler
+  * Columns: Dökümanlar
+  * Checkbox Selection
+- Bulk Actions:
+  * Toplu Döküman Atama
+  * Toplu Mail Gönderimi
+
+// Versiyon Kontrolü
+- Version History:
+  * Eski Versiyonlar
+  * Değişiklik Tarihi
+  * Değiştiren Kullanıcı
+- Archive System:
+  * Arşivlenmiş Dökümanlar
+  * Geri Yükleme Opsiyonu 

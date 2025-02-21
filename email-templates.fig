@@ -1,0 +1,42 @@
+// Email Template Container
+- Width: 600px
+- Background: var(--white)
+- Font-family: Arial, sans-serif
+
+// Header Style
+- Logo
+- Gradient Bar
+
+// Ödeme Hatırlatma Maili
+- Title: "Ödeme Hatırlatması"
+- Content:
+  * Müşteri Adı
+  * Ödeme Tutarı
+  * Son Ödeme Tarihi
+  * Ödeme Linki
+  * Abonelik Bilgileri
+- CTA Button:
+  * Text: "Hemen Öde"
+  * Color: var(--primary-blue)
+
+// Başarılı Ödeme Maili
+- Success Icon
+- Ödeme Detayları:
+  * İşlem Tarihi
+  * Ödeme Tutarı
+  * İşlem Referans No
+- Makbuz PDF Eki
+
+// Başarısız Ödeme Bildirimi
+- Warning Icon
+- Hata Detayı
+- Alternatif Ödeme Yöntemleri
+- Destek İletişim Bilgileri
+
+// Yeni Abone Hoşgeldin Maili
+- Welcome Message
+- Kullanıcı Bilgileri:
+  * Kullanıcı Adı
+  * Geçici Şifre
+- Giriş Linki
+- Güvenlik Uyarıları 
